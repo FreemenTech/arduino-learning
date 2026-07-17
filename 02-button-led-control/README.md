@@ -11,7 +11,7 @@ Digital inputs with push buttons - each button toggles its own LED.
 - Breadboard + jumper wires
 
 ## Circuit
-![Montage](montage.jpg)
+![Montage](image/montage.jpg)
 - Button 1 on pin 2 with 1K pull-down to GND → toggles LED 1 on pin 7
 - Button 2 on pin 4 with 1K pull-down to GND → toggles LED 2 on pin 8
 - Each LED with 220 ohm resistor to GND

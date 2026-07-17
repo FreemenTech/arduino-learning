@@ -9,8 +9,8 @@ First Arduino project - blinking a single LED.
 - Breadboard + jumper wires
 
 ## Circuit
-![Montage](led_blink.jpg)
-![LED allumée](led_blink_on.jpg)
+![Montage](image/led_blink.jpg)
+![LED allumée](image/led_blink_on.jpg)
 
 LED + 220 ohm resistor on pin 4.
 Anode (long leg) to pin through resistor, cathode (short leg) to GND.
