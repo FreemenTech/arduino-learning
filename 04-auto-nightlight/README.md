@@ -12,7 +12,7 @@ based on ambient light level.
 - Breadboard + jumper wires
 
 ## Circuit
-![Montage](image/montage.HEIC)
+![Montage](image/montage.jpg)
 Voltage divider on A0:
 - 5V → photoresistor → A0 → 10K ohm → GND
 
