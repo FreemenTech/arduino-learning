@@ -12,7 +12,7 @@ Measure distance using sound waves. The HC-SR04 emits 8 ultrasonic bursts at 40 
 | USB cable | 1 |
 
 ## Circuit Wiring
-[!Montage](image/montage.jpg)
+![Montage](image/montage.jpg)
 
 | HC-SR04 Pin | Arduino Pin |
 |-------------|-------------|

@@ -14,7 +14,7 @@ Detect human movement using a passive infrared sensor. The PIR module senses cha
 | USB cable | 1 |
 
 ## Circuit Wiring
-[!Montage](image/montage.jpg)
+![Montage](image/montage.jpg)
 
 | PIR Pin | Arduino Pin |
 |---------|-------------|
