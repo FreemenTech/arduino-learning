@@ -16,10 +16,10 @@ I'm a cybersecurity student building my way toward IoT security. This repo docum
 | 06 | [Temperature Alert System](./06-temp-alert-system) | tone(), Servo library, attach/detach pattern, timer conflicts, power management | ✅ |
 | 07 | [LCD 16x4 Display](./07-lcd-display) | LiquidCrystal, HD44780, 4-bit mode, soldering, continuity testing | ✅ |
 | 08 | [Weather Station](./08-weather-station) | DHT11 + LCD integration, pin conflict resolution, sensor fusion, comfort thresholds | ✅ |
-| 09 | Proximity Detector | HC-SR04 ultrasonic, PIR sensor, pulseIn() | 🔜 |
-| 10 | Relay & DC Motor | Relay switching, back-EMF protection, external power | 🔜 |
-| 11 | Shift Register + 7-Segment | 74HC595, shiftOut(), bit operations | 🔜 |
-| 12 | IR Remote Control | IRremote library, NEC protocol decoding | 🔜 |
+| 09 | [Ultrasonic Sensor](./09-ultrasonic-sensor) | HC-SR04, pulseIn(), distance measurement | ✅ |
+| 10 | [PIR Motion Detector](./10-pir-motion-detector) | PIR sensor, motion detection, digital input filtering | ✅ |
+| 11 | [74HC595 Shift Register + LED Chase](./11-shift-register-led) | Shift register, shiftOut(), bit operations, output expansion | ✅ |
+| 12 | [IR Remote Control](./12-IR-remote-control) | IRremote library, NEC protocol, IR replay attack, IrSender/IrReceiver | ✅ |
 | 13 | RFID Access Control | RC522, SPI communication, UID authentication | 🔜 |
 | 14 | RFID Access v2 | Lockout logic, admin mode, multi-sensor integration | 🔜 |
 | 15 | Interrupts & millis() | Hardware interrupts, FSM, cooperative multitasking | 🔜 |
@@ -31,9 +31,10 @@ I'm a cybersecurity student building my way toward IoT security. This repo docum
 - Breadboard + jumper wires
 - LEDs, resistors, buttons, potentiometer
 - DHT11, photoresistor, HC-SR04, PIR sensor
-- LCM1604A LCD 16x4 (HD44780), buzzer, servo (continuous rotation), DC motor, relay
+- LCM1604A LCD 16x4 (HD44780), passive buzzer, servo (continuous rotation)
+- SN74HC595N shift register
+- VS1838B IR receiver + IR LED emitter
 - RC522 RFID module
-- IR receiver + remote
 
 ## Why this repo exists
 
